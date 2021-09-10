@@ -3,4 +3,7 @@ getalB = input ('Geef nu nog een willekeurig getal:  ')
 
 if getalA > getalB:
     Max = getalA
-    print ('a is het grootste getal:  ' + str(Max))
+    print ('A is het grootste getal:  ' + str(Max))
+elif getalA < getalB:
+    Min = getalA
+    print ('A is het kleinste getal:  ' + str(Min))
