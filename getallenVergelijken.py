@@ -1,5 +1,5 @@
-getalA = input('Geef een willekeurig getal:  ')
-getalB = input ('Geef nu nog een willekeurig getal:  ')
+getalA = input('Geef een willekeurig getal A:  ')
+getalB = input ('Geef nu nog een willekeurig getal B:  ')
 
 if getalA > getalB:
     Max = getalA
@@ -7,3 +7,5 @@ if getalA > getalB:
 elif getalA < getalB:
     Min = getalA
     print ('A is het kleinste getal:  ' + str(Min))
+else:
+    print ('A en B zijn even groot')
